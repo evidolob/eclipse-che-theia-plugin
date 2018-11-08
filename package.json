@@ -1,0 +1,17 @@
+{
+  "name": "eclipse-che-theia-api-ext",
+  "version": "1.0.0",
+  "author": "Yevhen Vydolob",
+  "license": "EPL-2.0",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.4.3"
+  },
+  "workspaces": [
+    "eclipse-che-theia-plugin",
+    "eclipse-che-theia-plugin-ext"
+  ],
+  "scripts": {
+    "build": "lerna run build"
+  }
+}

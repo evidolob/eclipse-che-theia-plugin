@@ -1,0 +1,16 @@
+.DS_Store
+node_modules
+build
+lib
+*.log
+.idea
+.metadata
+lerna-debug.log
+.nyc_output
+coverage
+errorShots
+.browser_modules
+package-backup.json
+.history
+.Trash-*
+dist
