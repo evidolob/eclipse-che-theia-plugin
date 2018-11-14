@@ -14,7 +14,6 @@
         "dist"
     ],
     "dependencies": {
-        "@eclipse-che/plugin": "^1.0.0",
         "@theia/core": "^0.3.16",
         "@theia/plugin-ext": "^0.3.16",
         "@eclipse-che/workspace-client": "^0.0.1-1527159618"
