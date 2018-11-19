@@ -10,8 +10,7 @@
     ],
     "files": [
         "lib",
-        "src",
-        "dist"
+        "src"
     ],
     "dependencies": {
         "@theia/core": "^0.3.16",

@@ -29,7 +29,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new CleanWebpackPlugin(['dist'])
+        new CleanWebpackPlugin(['lib/webworker'])
     ],
     resolve: {
         extensions: ['.ts', '.js']
@@ -38,6 +38,6 @@ module.exports = {
         filename: 'che-api-worker-provider.js',
         libraryTarget: "var",
         library: "che_api_provider",
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'lib/webworker')
     }
 };

@@ -13,7 +13,7 @@ import { BackendApplicationContribution } from '@theia/core/lib/node/backend-app
 import { injectable } from 'inversify';
 import * as path from 'path';
 
-const pluginPath = path.resolve(__dirname, '../../dist');
+const pluginPath = path.resolve(__dirname, '../../lib/webworker');
 
 @injectable()
 export class ChePluginApiContribution implements BackendApplicationContribution {
